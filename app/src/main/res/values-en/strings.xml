@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="My_account">My account</string>
+    <string name="Name">Name</string>
+    <string name="First_Name">Firstname</string>
+    <string name="Age">Age</string>
+    <string name="Sex">Sex</string>
+    <string name="Address">Address</string>
+    <string name="Favourite_Language">Favourite language</string>
+    <string name="change">change</string>
+    <string name="Apply">Apply</string>
+
+
+    <string name="Difficulty">Difficulty :</string>
+    <string name="People">People :</string>
+    <string name="Total_time">Total time :</string>
+    <string name="Preparation_time">Preparation time :</string>
+    <string name="Cooking_time">Cooking time :</string>
+
+    <string name="Recommanded_recipe">Recommanded recipes</string>
+
+    <string name="Photo">Photo *</string>
+    <string name="Name_of_the_recipe">Name of the recipe *</string>
+    <string name="Choose">Choose</string>
+    <string name="Quantity">Quantity</string>
+    <string name="Not_in_the_list">Not in the list ? Add yours !</string>
+    <string name="Unit">Unit</string>
+    <string name="Add_ingredient">Add ingredient</string>
+    <string name="Quote">Quote</string>
+    <string name="Nbr_of_persons">Nbr of persons</string>
+    <string name="Cooking_min">Cooking (min.)</string>
+    <string name="Preparation_min">Preparation (min.)</string>
+    <string name="Steps">Steps *</string>
+    <string name="Add_step">Add step</string>
+
+
+
+
+
+    <string name="app_name">EzMeal</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my_list">EzMeal</string>
+    <string name="button_choose_item">Choose new item</string>
+    <string name="label_current_selection">Current selection: </string>
+    <string name="label_default_selection">None</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="first_name">First name (optional)</string>
+    <string name="name">Name (optional)</string>
+    <string name="e_mail">E-mail *</string>
+    <string name="age">Age (optional)</string>
+    <string name="sex">Sex (optional)</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="address">Address (optional)</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="username_up">Username *</string>
+    <string name="password_up">Password *</string>
+    <string name="title_activity_home">EzMeal</string>
+    <string-array name="choose_sex">
+        <item>-</item>
+        <item>M</item>
+        <item>F</item>
+    </string-array>
+
+    <string-array name="choose_language">
+        <item>French</item>
+        <item>English</item>
+        <item>Dutch</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_fragment_viewer">FragmentViewer</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="meal">Meal</string>
+    <string name="filter">Filter</string>
+    <string name="season">Season</string>
+    <string name="cold">Cold</string>
+    <string name="hot">Hot</string>
+    <string name="subtype">Subtype</string>
+    <string name="vegetarian">Vegetarian</string>
+    <string name="cocktail">Cocktail</string>
+    <string name="pasta">Pasta</string>
+    <string name="seafood">Seafood</string>
+    <string name="fish">Fish</string>
+    <string name="prey">Prey</string>
+    <string name="meat">Meat</string>
+    <string name="chicken">Chicken</string>
+    <string name="salade">Salad</string>
+    <string name="dessert">Dessert</string>
+    <string name="dish">Dish</string>
+    <string name="starter">Starter</string>
+    <string name="type">Type</string>
+    <string name="description">Description</string>
+    <string name="add_my_recipe">Add my recipe</string>
+
+    <string name="ingredients"><u>Ingredients</u></string>
+    <string name="preparation"><u>Preparation</u></string>
+
+    <!-- tab 3 string -->
+
+    <string-array name="choose_Type">
+        <item>Starter</item>
+        <item>Dish</item>
+        <item>Dessert</item>
+        <item>Salad</item>
+        <item>Chicken</item>
+        <item>Meat</item>
+        <item>Prey</item>
+        <item>Fish</item>
+        <item>Seafood</item>
+        <item>Pasta</item>
+        <item>Cocktail</item>
+        <item>Vegetarian</item>
+    </string-array>
+
+    <string-array name="choose_SubType">
+        <item>Hot</item>
+        <item>Cold</item>
+        <item>Season</item>
+    </string-array>
+
+    <string-array name="choose_Difficulty">
+        <item>easy</item>
+        <item>medium</item>
+        <item>hard</item>
+    </string-array>
+
+    <string-array name="choose_NbrPerson">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="choose_unit">
+        <item>mg</item>
+        <item>g</item>
+        <item>kg</item>
+        <item>ml</item>
+        <item>cl</item>
+        <item>dl</item>
+        <item>l</item>
+        <item>pinch</item>
+        <item>tablespoon</item>
+        <item>teaspoon</item>
+    </string-array>
+</resources>

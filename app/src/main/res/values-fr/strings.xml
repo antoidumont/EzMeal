@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="My_account">Mon compte</string>
+    <string name="Name">Nom</string>
+    <string name="First_Name">Prénom</string>
+    <string name="Age">Age</string>
+    <string name="Sex">Sexe</string>
+    <string name="Address">Adresse</string>
+    <string name="Favourite_Language">Langue favorite</string>
+    <string name="change">Modifier</string>
+    <string name="Apply">Appliquer</string>
+
+    <string name="Difficulty">Difficulté :</string>
+    <string name="People">Personnes :</string>
+    <string name="Total_time">Temps total :</string>
+    <string name="Preparation_time">Temps de préparation :</string>
+    <string name="Cooking_time">Temps de cuisson :</string>
+
+    <string name="Recommanded_recipe">Recettes recommandées</string>
+
+    <string name="Photo">Photo *</string>
+    <string name="Name_of_the_recipe">Nom de la recette *</string>
+    <string name="Choose">Choisir</string>
+    <string name="Quantity">Quantité</string>
+    <string name="Not_in_the_list">Pas dans la liste ? Ajoute le tien !</string>
+    <string name="Unit">Unité</string>
+    <string name="Add_ingredient">Ajoutez un ingrédient</string>
+    <string name="Quote">Quote</string>
+    <string name="Nbr_of_persons">Nombre de personnes</string>
+    <string name="Cooking_min">Cuisson (min.)</string>
+    <string name="Preparation_min">Préparation (min.)</string>
+    <string name="Steps">Etapes *</string>
+    <string name="Add_step">Ajoutez une étape</string>
+
+
+
+    <string name="app_name">EzMeal</string>
+    <string name="hello_world">Bonjour tout le monde!</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="title_activity_my_list">EzMeal</string>
+    <string name="button_choose_item">Choisissez un nouvel article</string>
+    <string name="label_current_selection">Selection courante: </string>
+    <string name="label_default_selection">Rien</string>
+    <string name="username">Nom d'utilisateur</string>
+    <string name="password">Mot de passe</string>
+    <string name="sign_in">Se connecter</string>
+    <string name="sign_up">S'inscrire</string>
+    <string name="first_name">Prénom (optionnel)</string>
+    <string name="name">Nom (optionnel)</string>
+    <string name="e_mail">E-mail *</string>
+    <string name="age">Age (optionnel)</string>
+    <string name="sex">Sexe (optionnel)</string>
+    <string name="cancel">Annuler</string>
+    <string name="confirm">Confirmer</string>
+    <string name="address">Adresse (optional)</string>
+    <string name="title_activity_login">Se connecter</string>
+    <string name="username_up">Nom d'utilisateur *</string>
+    <string name="password_up">Mot de passe *</string>
+    <string name="title_activity_home">EzMeal</string>
+    <string-array name="choose_sex">Choix du sexe</string-array>
+        <item>-</item>
+        <item>M</item>
+        <item>F</item>
+    </string-array>
+
+    <string-array name="choose_language">Choix de la langue</string-array>
+        <item>Français</item>
+        <item>Anglais</item>
+        <item>Néerlandais</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Ouvrir la fenêtre navigation </string>
+    <string name="navigation_drawer_close">Fermer la fenêtre navigation</string>
+    <string name="title_activity_fragment_viewer">Fraguement de vue</string>
+    <string name="section_format">Bonjour tout le monde de la section: %1$d</string>
+    <string name="meal">Repas</string>
+    <string name="filter">Filtre</string>
+    <string name="season">Saison</string>
+    <string name="cold">Froid</string>
+    <string name="hot">Chaud</string>
+    <string name="subtype">Sous-type</string>
+    <string name="vegetarian">Végétarien</string>
+    <string name="cocktail">Cocktail</string>
+    <string name="pasta">Pâtes</string>
+    <string name="seafood">Fruit de mer</string>
+    <string name="fish">Poisson</string>
+    <string name="prey">Gibier</string>
+    <string name="meat">Viande</string>
+    <string name="chicken">Volaille</string>
+    <string name="salade">Salade</string>
+    <string name="dessert">Dessert</string>
+    <string name="dish">Plat principal</string>
+    <string name="starter">Entrée</string>
+    <string name="type">Type</string>
+    <string name="description">Description</string>
+    <string name="add_my_recipe">Ajouter ma recette</string>
+
+
+    <string name="ingredients"><u>Ingrédients</u></string>
+    <string name="preparation"><u>Préparation</u></string>
+
+    <!-- tab 3 string -->
+
+    <string-array name="choose_Type">Choix du type</string-array>
+        <item>Entrée</item>
+        <item>Plat principal</item>
+        <item>Dessert</item>
+        <item>Salade</item>
+        <item>Volaille</item>
+        <item>Repas</item>
+        <item>Gibier</item>
+        <item>Poisson</item>
+        <item>Fruit de mer</item>
+        <item>Pâtes</item>
+        <item>Cocktail</item>
+        <item>Végétarien</item>
+    </string-array>
+
+    <string-array name="choose_SubType">Choix du sous-type</string-array>
+        <item>Chaud</item>
+        <item>Froid</item>
+        <item>Saison</item>
+    </string-array>
+
+    <string-array name="choose_Difficulty">Choix de la difficulté</string-array>
+        <item>Facile</item>
+        <item>Moyen</item>
+        <item>Difficile</item>
+    </string-array>
+
+    <string-array name="choose_NbrPerson">Choix du nombre de personne</string-array>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="choose_unit">Choix des unités</string-array>
+        <item>mg</item>
+        <item>g</item>
+        <item>kg</item>
+        <item>ml</item>
+        <item>cl</item>
+        <item>dl</item>
+        <item>l</item>
+        <item>pincée</item>
+        <item>cuillère à soupe</item>
+        <item>cuillère à café</item>
+    </string-array>
+</resources>

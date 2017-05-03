@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    tools:context=".ClassicReceipt"
+    android:layout_marginBottom="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tomato Soup"
+            android:id="@+id/title"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="37dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="starter > hot > tomato soup"
+            android:id="@+id/arborescence"
+            android:layout_below="@+id/title"
+            android:textSize="14sp"
+            android:layout_alignLeft="@+id/title"
+            android:layout_alignStart="@+id/title" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="''Pure Simplicity''"
+            android:id="@+id/citation"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_marginTop="24dp"
+            android:layout_below="@+id/arborescence"
+            android:layout_alignLeft="@+id/arborescence"
+            android:layout_alignStart="@+id/arborescence" />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/soup"
+            android:layout_marginTop="19dp"
+            android:layout_below="@+id/citation"
+            android:layout_alignLeft="@+id/citation"
+            android:layout_alignStart="@+id/citation"
+            android:id="@+id/imageView2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proposed by Invaders"
+            android:id="@+id/user"
+            android:textStyle="italic"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="26dp"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_toRightOf="@+id/imageView2"
+            android:layout_toEndOf="@+id/imageView2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="on 12/02/2016"
+            android:id="@+id/date"
+            android:textStyle="italic"
+            android:layout_below="@+id/user"
+            android:layout_alignLeft="@+id/user"
+            android:layout_alignStart="@+id/user" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Difficulty"
+            android:layout_marginTop="19dp"
+            android:id="@+id/difficulty"
+            android:layout_below="@+id/date"
+            android:layout_alignLeft="@+id/date"
+            android:layout_alignStart="@+id/date" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/People"
+            android:id="@+id/people"
+            android:layout_below="@+id/difficulty"
+            android:layout_alignLeft="@+id/difficulty"
+            android:layout_alignStart="@+id/difficulty" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Total_time"
+            android:id="@+id/total_time"
+            android:layout_above="@+id/textView4"
+            android:layout_alignLeft="@+id/people"
+            android:layout_alignStart="@+id/people" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Preparation_time"
+            android:id="@+id/textView4"
+            android:layout_above="@+id/cooking_time"
+            android:layout_alignLeft="@+id/total_time"
+            android:layout_alignStart="@+id/total_time" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Cooking_time"
+            android:id="@+id/cooking_time"
+            android:layout_alignBottom="@+id/imageView2"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignStart="@+id/textView4" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ingredients"
+            android:id="@+id/ingredients_title"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_below="@+id/imageView2"
+            android:layout_alignLeft="@+id/imageView2"
+            android:layout_alignStart="@+id/imageView2"
+            android:layout_marginTop="32dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="- 987 tomates"
+            android:id="@+id/textView2"
+            android:layout_marginTop="24dp"
+            android:layout_below="@+id/ingredients_title"
+            android:layout_alignLeft="@+id/ingredients_title"
+            android:layout_alignStart="@+id/ingredients_title" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preparation"
+            android:id="@+id/preparation"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="17dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- cuire pendant 7895622 années"
+            android:layout_below="@+id/preparation"
+            android:layout_marginTop="150dp"
+            android:id="@+id/textView3"
+            android:layout_alignRight="@+id/people"
+            android:layout_alignEnd="@+id/people"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2" />
+
+    </RelativeLayout>
+
+</ScrollView>

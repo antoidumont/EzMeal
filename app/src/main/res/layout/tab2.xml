@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/Type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/type" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/starter"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/starter"
+            android:onClick="onCheckboxClickedType"/>
+
+        <CheckBox
+            android:id="@+id/dish"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dish"
+            android:onClick="onCheckboxClickedType"/>
+
+        <CheckBox
+            android:id="@+id/dessert"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dessert"
+            android:onClick="onCheckboxClickedType"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/salade"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/salade"
+            android:onClick="onCheckboxClickedType"/>
+
+        <CheckBox
+            android:id="@+id/chicken"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/chicken"
+            android:onClick="onCheckboxClickedType"/>
+
+        <CheckBox
+            android:id="@+id/meat"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/meat"
+            android:onClick="onCheckboxClickedType"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/prey"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/prey"
+            android:onClick="onCheckboxClickedType"/>
+
+        <CheckBox
+            android:id="@+id/fish"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/fish"
+            android:onClick="onCheckboxClickedType"/>
+
+        <CheckBox
+            android:id="@+id/seafood"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/seafood"
+            android:onClick="onCheckboxClickedType"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/pasta"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pasta"
+            android:onClick="onCheckboxClickedType"/>
+
+        <CheckBox
+            android:id="@+id/cocktail"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cocktail"
+            android:onClick="onCheckboxClickedType"/>
+
+        <CheckBox
+            android:id="@+id/vegetarian"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/vegetarian"
+            android:onClick="onCheckboxClickedType"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Subtype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/subtype" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/hot"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/hot"
+            android:onClick="onCheckboxClickedType"/>
+
+        <CheckBox
+            android:id="@+id/cold"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClickedType"
+            android:text="@string/cold" />
+
+        <CheckBox
+            android:id="@+id/season"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/season"
+            android:onClick="onCheckboxClickedType"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="19dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_button_blue"
+        android:text="@string/filter"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

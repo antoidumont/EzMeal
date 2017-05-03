@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="My_account">Mijn account</string>
+    <string name="Name">Naam</string>
+    <string name="First_Name">Voornaam</string>
+    <string name="Age">Leeftijd</string>
+    <string name="Sex">Geslacht</string>
+    <string name="Address">Adres</string>
+    <string name="Favourite_Language">Voorkeurstaal</string>
+    <string name="change">Bewerken</string>
+    <string name="Apply">Toepassen</string>
+
+    <string name="Difficulty">Moeilijkheid :</string>
+    <string name="People">Mensen :</string>
+    <string name="Total_time">Totale tijd :</string>
+    <string name="Preparation_time">Voorbereidingstijd :</string>
+    <string name="Cooking_time">Kooktijd :</string>
+
+    <string name="Recommanded_recipe">Aanbevolen recepten</string>
+
+    <string name="Photo">Photo *</string>
+    <string name="Name_of_the_recipe">Naam van het recept *</string>
+    <string name="Choose">Kiezen</string>
+    <string name="Quantity">Hoeveelheid</string>
+    <string name="Not_in_the_list">Niet in het list ? Voeg jouw toe !</string>
+    <string name="Unit">Meeteenheid</string>
+    <string name="Add_ingredient">Voeg een ingredient</string>
+    <string name="Quote">Citaat</string>
+    <string name="Nbr_of_persons">Het aantal mensen</string>
+    <string name="Cooking_min">Koken (min.)</string>
+    <string name="Preparation_min">Voorbereiding (min.)</string>
+    <string name="Steps">Stappen *</string>
+    <string name="Add_step">Add stap</string>
+
+
+
+
+    <string name="app_name">EzMeal</string>
+    <string name="hello_world">Hallo iedereen!</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="title_activity_my_list">EzMeal</string>
+    <string name="button_choose_item">Zorgen voor een nieuw artikel</string>
+    <string name="label_current_selection">Huidige selectie: </string>
+    <string name="label_default_selection">Niets</string>
+    <string name="username">Gebruikersnaam</string>
+    <string name="password">Wacthwoord</string>
+    <string name="sign_in">Aansluiten</string>
+    <string name="sign_up">Insvchrijven</string>
+    <string name="first_name">Voornaam (facultatief)</string>
+    <string name="name">Naam (facultatief)</string>
+    <string name="e_mail">E-mail *</string>
+    <string name="age">Leeftijd (facultatief)</string>
+    <string name="sex">Geslacht (facultatief)</string>
+    <string name="cancel">Annuleren</string>
+    <string name="confirm">Bevestigen</string>
+    <string name="address">Adres (Facultatief)</string>
+    <string name="title_activity_login">Aansluiten</string>
+    <string name="username_up">Gebruikersnaam *</string>
+    <string name="password_up">Wachtwoord *</string>
+    <string name="title_activity_home">EzMeal</string>
+    <string-array name="choose_sex">Geslacht selectie</string-array>
+    <item>-</item>
+    <item>M</item>
+    <item>V</item>
+</string-array>
+
+<string-array name="choose_language">Taalkeuze</string-array>
+<item>Frans</item>
+<item>Engels</item>
+<item>Nederlands</item>
+    </string-array>
+
+<string name="navigation_drawer_open">Open het navigatievenster </string>
+<string name="navigation_drawer_close">Sluiten het navigatievenster</string>
+<string name="title_activity_fragment_viewer">Fragment view</string>
+<string name="section_format">Hallo iedereen van de sectie: %1$d</string>
+<string name="meal">Maaltijd</string>
+<string name="filter">filter</string>
+<string name="season">Seizoen</string>
+<string name="cold">Koude</string>
+<string name="hot">Warm</string>
+<string name="subtype">Subtype</string>
+<string name="vegetarian">Vegetarisch</string>
+<string name="cocktail">Cocktail</string>
+<string name="pasta">Pasta</string>
+<string name="seafood">Zeevruchten</string>
+<string name="fish">Vis</string>
+<string name="prey">Wild</string>
+<string name="meat">Vlees</string>
+<string name="chicken">Gevogelte</string>
+<string name="salade">Salade</string>
+<string name="dessert">Nagerecht</string>
+<string name="dish">Hoofdgerecht</string>
+<string name="starter">Voorgerecht</string>
+<string name="type">Type</string>
+<string name="description">Beschrijving</string>
+<string name="add_my_recipe">Voeg mijn recept</string>
+
+
+<string name="ingredients"><u>Ingrediënten</u></string>
+<string name="preparation"><u>Voorbereiding</u></string>
+
+    <!-- tab 3 string -->
+
+<string-array name="choose_Type">Keuze van het type</string-array>
+<item>Voorgerecht</item>
+<item>Hoofdgerecht</item>
+<item>Nagerecht</item>
+<item>Salade</item>
+<item>Gevogelte</item>
+<item>Maaltijd</item>
+<item>Wild</item>
+<item>Vis</item>
+<item>Zeevruchten</item>
+<item>Pasta</item>
+<item>Cocktail</item>
+<item>Vegetarisch</item>
+    </string-array>
+
+<string-array name="choose_SubType">Keuze van het subtype</string-array>
+<item>Warm</item>
+<item>Koude</item>
+<item>Seizoen</item>
+    </string-array>
+
+<string-array name="choose_Difficulty">Keuze van moeilijkheind</string-array>
+<item>Makkelijk</item>
+<item>Middelen</item>
+<item>Moeilijk</item>
+    </string-array>
+
+<string-array name="choose_NbrPerson">Keuze van het aantal mensen</string-array>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+<item>9</item>
+<item>10</item>
+    </string-array>
+
+<string-array name="choose_unit">Kiezen eenheden</string-array>
+<item>mg</item>
+<item>g</item>
+<item>kg</item>
+<item>ml</item>
+<item>cl</item>
+<item>dl</item>
+<item>l</item>
+<item>Knijpen</item>
+<item>Eetlepel</item>
+<item>Theelepel</item>
+    </string-array>
+    </resources>
